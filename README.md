@@ -1,8 +1,16 @@
+# Models trained with lucidrains' DALLE-pytorch (https://github.com/lucidrains/DALLE-pytorch) code
+
+This repository is a collection of checkpoints for DALLE-pytorch models, from where you can keep on training or start generating images.
+
+The idea of this repository is to make shared and continued training feasible.
+
 # DALLE-models
-Here is a collection of checkpoints for DALLE-pytorch models, from where you can keep on training or start generating images.
 
 The folders are named after the hyperparameters used for the training, e.g.:
 
+Models with 12 layers, 8 heads, 64 head dimensions, 128 text dimensions, 512 image dimensions are located in the following folder:
+
+12-layers/8heads/64dim/128textdim_512imgdim/
 
 The filenames of the models represent the model it was trained from and additional hyperparameters, e.g.:
 
