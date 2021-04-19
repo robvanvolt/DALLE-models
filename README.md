@@ -1,10 +1,10 @@
-# Models trained with lucidrains' DALLE-pytorch (https://github.com/lucidrains/DALLE-pytorch) code
+# DALLE-models
 
 This repository is a collection of checkpoints for DALLE-pytorch models, from where you can keep on training or start generating images.
 
 The idea of this repository is to make shared and continued training feasible.
 
-# DALLE-models
+The models are trained with lucidrains' DALLE-pytorch (https://github.com/lucidrains/DALLE-pytorch) code.
 
 The folders are named after the hyperparameters used for the training, e.g.:
 
