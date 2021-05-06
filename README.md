@@ -6,8 +6,9 @@ The idea of this repository is to make shared and continued training feasible.
 
 The models are trained with lucidrains' DALLE-pytorch (https://github.com/lucidrains/DALLE-pytorch) code.
 
-The folders are named after the transformer used for training (either taming or open-ai transformer for now):
+## Naming convention
 
+The folders are named after the transformer used for training (either taming or open-ai transformer for now):
 
 Models with 12 layers (=depth), 8 heads, 64 head dimensions, 128 text dimensions, 512 image dimensions which are trained with the taming-transformer:
 
