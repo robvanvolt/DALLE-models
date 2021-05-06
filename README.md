@@ -19,7 +19,7 @@ Models with 12 layers (=depth), 8 heads, 64 head dimensions, 128 text dimensions
 `taming/12L_64HD_8H_512I_128T_cc12m_1E.pt`
 
 The Filenames and folders contain all necessary information for "continuing" training (even though the train_dalle.py script extracts those parameters from
-the provided model anyway). The batch size is not included in the filename, as you can continue training on the models with a higher batch size if you have a better GPU for example. The same rule applies for the other hyperparameters listed below, which are not part oft he filename. 
+the provided model anyway). The batch size is not included in the filename, as you can continue training on the models with a higher batch size if you have a better GPU for example. The same rule applies for the other hyperparameters listed below, which are not part of the filename. 
 
 So if another person trains with the same dataset for an additional epoch, he can upload the new model into the taming folder and name the dalle.pt as follows: 
 
