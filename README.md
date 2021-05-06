@@ -27,11 +27,11 @@ BATCH_SIZE = 20
 LEARNING_RATE = 3e-4
 GRAD_CLIP_NORM = 0.9
 
-MODEL_DIM = 512            # image dimensions, "512I"
-TEXT_SEQ_LEN = 256         # text dimensions, "128T"
-DEPTH = 12                 # number of layers, "12L"
-HEADS = 8                  # number of heads, "8H"
-DIM_HEAD = 64              # number of head dimensions, "64HD"
+MODEL_DIM = 512            # image dimensions,           "512I"
+TEXT_SEQ_LEN = 256         # text dimensions,            "128T"
+DEPTH = 12                 # number of layers,            "12L"
+HEADS = 8                  # number of heads,              "8H"
+DIM_HEAD = 64              # number of head dimensions,  "64HD"
 REVERSIBLE = True
 LOSS_IMG_WEIGHT = 7
 LR_DECAY = False
