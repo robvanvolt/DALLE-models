@@ -52,10 +52,10 @@ ATTN_TYPES = ('full', 'sparse')
 ### 3. Generation capabilities and quality
 Optionally, you may provide examples of generated images and quantitative metrics of your uploaded model.
 
-#### 3.1) general model (e.g. cc12m, yfcc100m, wit or alike used for training): 
+#### 3.1 general model (e.g. cc12m, yfcc100m, wit or alike used for training): 
 * "An armchair in the shape of an avocado. An armchair imitating an avocado."
 * "A red tshirt with a black circle drawn on it."
 * "People playing soccer on a field."
 
-#### 3.2) specific model (e.g. CUB200 birds or a fashion dataset used for training)
+#### 3.2 specific model (e.g. CUB200 birds or a fashion dataset used for training)
 * depending on your domain, generate a few examples with a text input which is not part of your training dataset
