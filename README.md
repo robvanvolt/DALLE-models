@@ -20,7 +20,7 @@ same dataset for an additional epoch, he can upload the new model into the tamin
 
 `12L_64HD_8H_512I_128T_cc12m_2E.pt`
 
-Please also provide a short description of your other training parameters used and the quality of image generations (e.g. with RM-Scores).
+Please also provide a short description of your other training parameters used and the quality of image generation (e.g. with RM-Scores) like this:
 
 ```EPOCHS = 20
 BATCH_SIZE = 4
@@ -35,3 +35,5 @@ DIM_HEAD = 64
 REVERSIBLE = True
 LOSS_IMG_WEIGHT = 7
 LR_DECAY = False
+ATTN_TYPES = ('full', 'sparse')
+```
