@@ -1,5 +1,11 @@
 ### General Model (Example)
 
+#### Generations
+
+"An armchair in the shape of an avocado. An armchair imitating an avocado" - Manually picked best of 32 generations.
+
+![image](https://github.com/robvanvolt/DALLE-models/blob/0507632824d38417ff0c40bbb5c37a4858c56afe/models/taming_transformer/16L_64HD_16H_756I_128T_cc12m_1E/generations/avocado_armchair.jpg)
+
 #### Hyperparameters
 
 This is a model i trained on the cc12m dataset with.
@@ -19,10 +25,3 @@ LOSS_IMG_WEIGHT = 7
 LR_DECAY = False
 ATTN_TYPES = ('full', 'sparse')
 ```
-
-
-#### Generations
-
-"An armchair in the shape of an avocado. An armchair imitating an avocado" - Manually picked best of 32 generations.
-
-![image](https://github.com/robvanvolt/DALLE-models/blob/0507632824d38417ff0c40bbb5c37a4858c56afe/models/taming_transformer/16L_64HD_16H_756I_128T_cc12m_1E/generations/avocado_armchair.jpg)
