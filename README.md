@@ -59,3 +59,8 @@ Optionally, you may provide examples of generated images and quantitative metric
 
 #### 3.2 specific model (e.g. CUB200 birds or a fashion dataset used for training)
 * depending on your domain, generate a few examples with a text input which is not part of your training dataset
+
+#### 4. Datasets
+If you want to train on your own and do not want to make a big fuss about downloading and preparing the datasets, you can use helper scripts which automate a large part of the dataset-generations:
+
+https://github.com/robvanvolt/DALLE-datasets
