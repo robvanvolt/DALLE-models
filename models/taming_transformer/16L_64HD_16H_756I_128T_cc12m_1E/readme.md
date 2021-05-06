@@ -1,5 +1,9 @@
 ### General Model (Example)
 
+#### Download link to model
+
+https://mega.nz/file/kShC2QjR#5BEPvrouy89XgRFo130hYdSLZu_hyz9s7oWUnhQsXb4
+
 #### Generations
 
 "An armchair in the shape of an avocado. An armchair imitating an avocado" - Manually picked best of 32 generations.
