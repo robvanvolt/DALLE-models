@@ -2,7 +2,7 @@
 
 This repository is a collection of checkpoints for DALLE-pytorch models, from where you can keep on training or start generating images.
 
-The idea of this repository is to make shared and continued training feasible.
+The idea of this repository is to make shared and continued training feasible and in the long run determine the best model and hyperparameters.
 
 The models are trained with lucidrains' DALLE-pytorch (https://github.com/lucidrains/DALLE-pytorch) code.
 
