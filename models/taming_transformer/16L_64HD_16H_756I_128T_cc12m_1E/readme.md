@@ -12,9 +12,10 @@ https://mega.nz/file/kShC2QjR#5BEPvrouy89XgRFo130hYdSLZu_hyz9s7oWUnhQsXb4
 
 #### Hyperparameters
 
-This is a model i trained on the cc12m dataset with.
+This is a model was trained on the cc12m dataset with.
 
 ```
+16_BIT_PRECISION = True
 BATCH_SIZE = 42
 LEARNING_RATE = 3e-4
 GRAD_CLIP_NORM = 0.9
