@@ -22,7 +22,7 @@ same dataset for an additional epoch, he can upload the new model into the tamin
 
 Please also provide a short description of your other training parameters used and the quality of image generations (e.g. with RM-Scores).
 
-`EPOCHS = 20
+```EPOCHS = 20
 BATCH_SIZE = 4
 LEARNING_RATE = 3e-4
 GRAD_CLIP_NORM = 0.5
@@ -34,4 +34,4 @@ HEADS = 4
 DIM_HEAD = 64
 REVERSIBLE = True
 LOSS_IMG_WEIGHT = 7
-LR_DECAY = False`
+LR_DECAY = False```
