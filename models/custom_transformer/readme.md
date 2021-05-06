@@ -1,4 +1,4 @@
-### Folder of pretrained DALLE-pytorch models using a custom transformer
+### Pretrained DALLE-pytorch models using a custom transformer
 
 Here you can upload (e.g. on mega.nz, depositfiles, zippyshare, dropbox, google drive, onedrive, ...) your pretrained dalle models. 
 
