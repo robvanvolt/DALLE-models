@@ -19,3 +19,21 @@ the provided model anyway). The last part of the filename is the number of epoch
 same dataset for an additional epoch, he can upload the new model into the taming folder and name the dalle.pt as follows: 
 
 `12L_64HD_8H_512I_128T_cc12m_2E.pt`
+
+Please also provide a short description of your other training parameters used and the quality of image generations (e.g. with RM-Scores).
+
+`
+EPOCHS = 20
+BATCH_SIZE = 4
+LEARNING_RATE = 3e-4
+GRAD_CLIP_NORM = 0.5
+
+MODEL_DIM = 512
+TEXT_SEQ_LEN = 256
+DEPTH = 2
+HEADS = 4
+DIM_HEAD = 64
+REVERSIBLE = True
+LOSS_IMG_WEIGHT = 7
+LR_DECAY = False
+`
