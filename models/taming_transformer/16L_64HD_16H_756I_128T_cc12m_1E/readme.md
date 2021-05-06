@@ -24,3 +24,5 @@ ATTN_TYPES = ('full', 'sparse')
 #### Generations
 
 "An armchair in the shape of an avocado. An armchair imitating an avocado" - Manually picked best of 32 generations.
+
+<img source="models/taming_transformer/16L_64HD_16H_756I_128T_cc12m_1E/generations/avocado_armchair.jpg">
