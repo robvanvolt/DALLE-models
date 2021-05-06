@@ -6,7 +6,7 @@ The idea of this repository is to make shared and continued training feasible an
 
 The models are trained with lucidrains' DALLE-pytorch (https://github.com/lucidrains/DALLE-pytorch) code.
 
-## Naming convention and additional information
+## Naming convention and metadata
 
 ### 1. Filenames
 
