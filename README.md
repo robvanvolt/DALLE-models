@@ -6,7 +6,11 @@ The idea of this repository is to make shared and continued training feasible.
 
 The models are trained with lucidrains' DALLE-pytorch (https://github.com/lucidrains/DALLE-pytorch) code.
 
-## Naming convention
+## Naming convention and additional information
+
+### Filenames
+
+#### 1) Stem
 
 The folders are named after the transformer used for training (either taming or open-ai transformer for now):
 
@@ -21,7 +25,7 @@ So if another person trains with the same dataset for an additional epoch, he ca
 
 `12L_64HD_8H_512I_128T_cc12m_2E.pt`
 
-### Epochs
+#### 2) Epochs
 The last part of the is the number of epochs trained and the used dataset - it is the total count of epochs trained on given dataset, so you you train for 2 epochs on a model that was already trained for 3x2 epochs, the last part of the filename is 8E = 8 total number of epochs trained. If you train on a different dataset, just add the name of the dataset and the number of epochs trained. The following model was trained 2 epochs on the conceptual images dataset and one epoch on the wit dataset: 
 
 `12L_64HD_8H_512I_128T_cc12m-2E_wit-1E.pt`
