@@ -8,7 +8,7 @@ The models are trained with lucidrains' DALLE-pytorch (https://github.com/lucidr
 
 ## Naming convention and metadata
 
-### 1. Filenames
+### 1. Foldernames
 
 #### 1.1 Stem
 
@@ -16,17 +16,17 @@ The folders are named after the transformer used for training (either taming or 
 
 Models with 12 layers (=depth), 8 heads, 64 head dimensions, 128 text dimensions, 512 image dimensions which are trained with the taming-transformer:
 
-`taming/12L_64HD_8H_512I_128T_cc12m_1E.pt`
+`taming/12L_64HD_8H_512I_128T_cc12m_1E`
 
 The Filenames and folders contain all necessary information for "continuing" training (even though the train_dalle.py script extracts those parameters from
 the provided model anyway). The batch size is not included in the filename, as you can continue training on the models with a higher batch size if you have a better GPU for example. The same rule applies for the other hyperparameters listed below, which are not part of the filename. 
 
-So if another person trains with the same dataset for an additional epoch, he can upload the new model into the taming folder and name the dalle.pt as follows: 
+So if another person trains with the same dataset for an additional epoch, he can upload the new model into the taming folder and name the subfolder as follows: 
 
 `12L_64HD_8H_512I_128T_cc12m_2E.pt`
 
 #### 1.2 Epochs
-The last part of the is the number of epochs trained and the used dataset - it is the total count of epochs trained on given dataset, so you you train for 2 epochs on a model that was already trained for 3x2 epochs, the last part of the filename is 8E = 8 total number of epochs trained. If you train on a different dataset, just add the name of the dataset and the number of epochs trained. The following model was trained 2 epochs on the conceptual images dataset and one epoch on the wit dataset: 
+The last part of the filename/folder is the number of epochs trained and the used dataset - it is the total count of epochs trained on given dataset, so you you train for 2 epochs on a model that was already trained for 3x2 epochs, the last part of the filename is 8E = 8 total number of epochs trained. If you train on a different dataset, just add the name of the dataset and the number of epochs trained. The following model was trained 2 epochs on the conceptual images dataset and one epoch on the wit dataset: 
 
 `12L_64HD_8H_512I_128T_cc12m-2E_wit-1E.pt`
 
