@@ -10,6 +10,10 @@ https://mega.nz/file/5PhBUCSD#kVzo_VFJde1kxPn3-cPpu2cN5dZwaBxFEO_o4hm9RSM
 
 ![image](https://github.com/robvanvolt/DALLE-models/blob/main/models/taming_transformer/64L_64HD_8H_756I_128T_cc12m_1E/generations/2.jpg)
 
+"A blue bird in front of a yellow wall." - Manually picked best of 12 generations.
+
+![image](https://github.com/robvanvolt/DALLE-models/blob/main/models/taming_transformer/64L_64HD_8H_756I_128T_cc12m_1E/generations/8.jpg)
+
 "An armchair in the shape of an avocado. An armchair imitating an avocado" - Manually picked best of 12 generations.
 
 ![image](https://github.com/robvanvolt/DALLE-models/blob/main/models/taming_transformer/64L_64HD_8H_756I_128T_cc12m_1E/generations/61.jpg)
