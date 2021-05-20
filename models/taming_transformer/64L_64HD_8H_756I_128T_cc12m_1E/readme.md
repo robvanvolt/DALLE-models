@@ -6,9 +6,12 @@ https://mega.nz/file/5PhBUCSD#kVzo_VFJde1kxPn3-cPpu2cN5dZwaBxFEO_o4hm9RSM
 
 #### Generations
 
+"A t-shirt with open-ai written on it." - Manually picked best of 32 generations.
+
+![image](https://github.com/robvanvolt/DALLE-models/blob/main/models/taming_transformer/64L_64HD_8H_756I_128T_cc12m_1E/generations/11.jpg)
+
 "An armchair in the shape of an avocado. An armchair imitating an avocado" - Manually picked best of 32 generations.
 
-![image](https://github.com/robvanvolt/DALLE-models/blob/0507632824d38417ff0c40bbb5c37a4858c56afe/models/taming_transformer/16L_64HD_16H_756I_128T_cc12m_1E/generations/avocado_armchair.jpg)
 
 #### Hyperparameters
 
