@@ -1,6 +1,6 @@
 ### General Model (Example)
 
-All models can be used with https://github.com/rom1504/dalle-service (just add the URL to the dalle.pt in the colab).
+All models can be used with https://colab.research.google.com/drive/1b8va5g852hq3p7yro7xWY3Cc-bd2CRdv?usp=sharing#scrollTo=2Pl8ovcl5T8h or https://github.com/rom1504/dalle-service (just add the URL to the dalle.pt in the colab).
 
 #### Download link to model
 
