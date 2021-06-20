@@ -6,6 +6,8 @@ The idea of this repository is to make shared and continued training feasible an
 
 The models are trained with lucidrains' DALLE-pytorch (https://github.com/lucidrains/DALLE-pytorch) code.
 
+Models can be used (just add the URL to the dalle.pt in the colab) within https://github.com/rom1504/dalle-service
+
 ## Naming convention and metadata
 
 ### 1. Foldernames
