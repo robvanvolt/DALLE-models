@@ -1,5 +1,7 @@
 ### General Model (Example)
 
+All models can be used with https://github.com/rom1504/dalle-service (just add the URL to the dalle.pt in the colab).
+
 #### Download link to model
 
 https://api.wandb.ai/files/robvanvolt/dalle_train_transformer/3bwiteds/dalle.pt
