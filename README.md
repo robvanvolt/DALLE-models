@@ -1,18 +1,33 @@
 # Trained Dall-E models
 
-This repository is a collection of checkpoints for DALLE-pytorch models, from where you can keep on training or start generating images.
+**This repository is a collection of checkpoints for DALLE-pytorch models**, from where you can keep on training or start generating images.
 
-The idea of this repository is to make shared and continued training feasible and in the long run determine the best model and hyperparameters.
+- The idea of this repository is to make shared and continued training feasible and in the long run determine the best model and hyperparameters.
 
+---
+
+<p align="center">
+  <strong>Try out the models via Colab notebook</strong>
+</p>
+
+<p align="center">
+
+  <a href="https://colab.research.google.com/drive/11YEc338tI9ybtc04XxbXdVNpYjNhCf2M">
+         <img alt="Open in colab" src="https://colab.research.google.com/assets/colab-badge.svg">
+  </a>
+
+</p>
+
+Alternatively, the models can be used (just add the URL to the dalle.pt in the colab) within https://github.com/rom1504/dalle-service
+ 
 The models are trained with lucidrains' DALLE-pytorch (https://github.com/lucidrains/DALLE-pytorch) code.
 
-Models can be used (just add the URL to the dalle.pt in the colab) within https://github.com/rom1504/dalle-service
+
 
 ## Naming convention and metadata
-
-### 1. Foldernames
-
-#### 1.1 Stem
+### **1. Foldernames**
+---
+### **Stem**
 
 The folders are named after the transformer used for training (either taming or open-ai transformer for now):
 
@@ -27,12 +42,13 @@ So if another person trains with the same dataset for an additional epoch, he ca
 
 `12L_64HD_8H_512I_128T_cc12m_2E.pt`
 
-#### 1.2 Epochs
+### **Epochs**
 The last part of the filename/folder is the number of epochs trained and the used dataset - it is the total count of epochs trained on given dataset, so you you train for 2 epochs on a model that was already trained for 3x2 epochs, the last part of the filename is 8E = 8 total number of epochs trained. If you train on a different dataset, just add the name of the dataset and the number of epochs trained. The following model was trained 2 epochs on the conceptual images dataset and one epoch on the wit dataset: 
 
 `12L_64HD_8H_512I_128T_cc12m-2E_wit-1E.pt`
 
 ### 2. Hyperparameters
+---
 Provide a short description of your other training parameters used and the quality of image generation (e.g. with RM-Scores and examples of the generations) like this:
 
 ```EPOCHS = 1
@@ -52,17 +68,19 @@ ATTN_TYPES = ('full', 'sparse')
 ```
 
 ### 3. Generation capabilities and quality
+---
 Optionally, you may provide examples of generated images and quantitative metrics of your uploaded model.
 
-#### 3.1 general model (e.g. cc12m, yfcc100m, wit or alike used for training): 
+### **General model** _(e.g. cc12m, yfcc100m, wit or alike used for training)_ 
 * "An armchair in the shape of an avocado. An armchair imitating an avocado."
 * "A red tshirt with a black circle drawn on it."
 * "People playing soccer on a field."
 
-#### 3.2 specific model (e.g. CUB200 birds or a fashion dataset used for training)
+### **Specific model** _(e.g. CUB200 birds or a fashion dataset used for training)_
 * depending on your domain, generate a few examples with a text input which is not part of your training dataset
 
-#### 4. Datasets
+### 4. Datasets
+---
 If you want to train on your own and do not want to make a big fuss about downloading and preparing the datasets, you can use helper scripts which automate a large part of the dataset-generations:
 
-https://github.com/robvanvolt/DALLE-datasets
+> https://github.com/robvanvolt/DALLE-datasets
