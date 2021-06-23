@@ -83,4 +83,4 @@ Optionally, you may provide examples of generated images and quantitative metric
 ---
 If you want to train on your own and do not want to make a big fuss about downloading and preparing the datasets, you can use helper scripts which automate a large part of the dataset-generations:
 
-https://github.com/robvanvolt/DALLE-datasets
+> https://github.com/robvanvolt/DALLE-datasets
