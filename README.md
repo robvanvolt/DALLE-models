@@ -4,10 +4,12 @@
 
 - The idea of this repository is to make shared and continued training feasible and in the long run determine the best model and hyperparameters.
 
+These models were trained via lucidrains' [DALLE-pytorch.](https://github.com/lucidrains/DALLE-pytorch)
+
 ---
 
 <p align="center">
-  <strong>Try out the models via Colab notebook</strong>
+  <strong>Inference models via Colab | Discord server</strong>
 </p>
 
 <p align="center">
@@ -15,14 +17,16 @@
   <a href="https://colab.research.google.com/drive/11YEc338tI9ybtc04XxbXdVNpYjNhCf2M">
          <img alt="Open in colab" src="https://colab.research.google.com/assets/colab-badge.svg">
   </a>
+  
+  <a href="https://discord.gg/dall-e">
+    <img alt="Join us on Discord" src="https://img.shields.io/discord/823813159592001537?color=5865F2&logo=discord&logoColor=white">
+  </a>
 
 </p>
 
-Alternatively, the models can be used (just add the URL to the dalle.pt in the colab) within https://github.com/rom1504/dalle-service
- 
-The models are trained with lucidrains' DALLE-pytorch (https://github.com/lucidrains/DALLE-pytorch) code.
-
-
+<p align="center">
+  <a>Host models on a demo site for inferencing via <a href="https://github.com/rom1504/dalle-service">dalle-service</a></a>
+</p>
 
 ## Naming convention and metadata
 ### **1. Foldernames**
