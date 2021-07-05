@@ -14,7 +14,7 @@ These models were trained via lucidrains' [DALLE-pytorch.](https://github.com/lu
 
 <p align="center">
 
-  <a href="https://colab.research.google.com/drive/11YEc338tI9ybtc04XxbXdVNpYjNhCf2M">
+  <a href="https://colab.research.google.com/drive/1b8va5g852hq3p7yro7xWY3Cc-bd2CRdv">
          <img alt="Open in colab" src="https://colab.research.google.com/assets/colab-badge.svg">
   </a>
   
